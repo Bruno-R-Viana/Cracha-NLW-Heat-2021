@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: #0e0e10;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.flex-container{
+    background: url(images/background.png);
+    width: 375px;
+    height: 812px;
+}
+
+.flex-modulo{
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+.foto{
+    width: 10rem;
+    margin: 11.5rem auto 0;
+    position: relative;
+}
+
+.foto > img{
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.foto span{
+    position: absolute;
+    top: -15px;
+    z-index: 1;
+}
+
+.flex-modulo h1 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.flex-modulo a{
+    margin-top: 0.25rem;
+    text-decoration: none;
+    color: white;
+}
+
+.flex-modulo h1{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.flex-modulo a:hover{
+    color: orange;
+}
+
+.flex-modulo p{
+    margin-top: 2rem;
+}
+
+.flex-modulo ul{
+    margin-top: 4rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-modulo li{
+    padding: 0.5rem;
+}
